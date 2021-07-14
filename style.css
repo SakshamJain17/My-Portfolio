@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }    
+
+ .header{
+     background-color: #54c097;
+     display: flex;
+     justify-content: space-between;    
+    } 
+ .game{
+     background-color: #d8892f;
+ }   
+.allGames{
+    background-color: #da2f2f;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.icons{
+    background-color: #86d803;
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color:#431c83
+}
+  
