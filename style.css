@@ -1,28 +1,41 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }    
-
- .header{
-     background-color: #54c097;
-     display: flex;
-     justify-content: space-between;    
-    } 
- .game{
-     background-color: #d8892f;
- }   
-.allGames{
-    background-color: #da2f2f;
+/* html,body{
+    background-color: red;
+} */
+.header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    background-color:yellow;
+    font-size: 30px;
+    font-family: algerian;
+    font-weight: 10;
+    color: blue;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 15px;
+  font-size: 20px;
+  font-family: algerian;
+  font-weight: 400;
+  color: white;
+}
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+  }
+.grid{
+    display: flex;
     flex-wrap: wrap;
 }
-.icons{
-    background-color: #86d803;
-    display: flex;
-    justify-content: flex-end;
+.origami{
+    border-radius: 50px;
+    background-color: white;
+    width: 370px;
+    height: 300px;
+    margin: 25px;
+    padding: 20px;
+    text-align: justify;
+    font-family: comic-sans;
 }
-body{
-    background-color:#431c83
-}
-  
+
